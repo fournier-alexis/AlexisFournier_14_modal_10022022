@@ -32,7 +32,7 @@ export const Modal: React.FunctionComponent<ModalProps> = ({
     };
 
     return (
-        <div className={`modal ${isOpen ? 'open' : 'closed'}`} style={modalStyle} onClick={(e) => closeModal(e)} data-testid="modal">
+        <div className={`modal ${isOpen ? 'open' : 'closed'}`} style={modalStyle} onClick={(e) => closeModal(e)}>
             <section className={'main'}>
                 {children}
                 <button className={'closeButton'} type="button" style={buttonStyle} onClick={handleClose}>
