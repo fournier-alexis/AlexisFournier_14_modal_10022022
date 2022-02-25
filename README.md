@@ -2,6 +2,8 @@
 
 A modal component used to complete the Open Classroom's project 14
 
+NPM page : https://www.npmjs.com/package/afournier-oc-modal
+
 ---
 
 ## How to install
